@@ -10,3 +10,11 @@
 .site-footer nav{display:flex;flex-wrap:wrap;gap:10px 20px;align-items:center}.site-footer nav a{color:#b8c3bf;text-decoration:none}.site-footer nav a:hover{color:#a9f27c}
 @media(max-width:560px){.header{gap:6px;padding-inline:10px}.header>a{flex:0 1 auto;min-width:0}.header .logo{width:clamp(76px,26vw,112px);max-width:100%;height:auto}.header nav{display:flex;flex:0 0 auto;gap:8px;font-size:12px;white-space:nowrap}.header .active,.header .nav .active{padding:6px 7px}.header nav .social{display:flex;flex:0 0 auto;align-items:center;padding:0 0 0 6px;border-left:0}.header nav .social svg{width:18px;height:18px;display:block}.site-footer{justify-content:center;text-align:center;gap:10px}.site-footer nav{justify-content:center}}
 @media(max-width:360px){.header nav{gap:6px;font-size:11px}.header .active,.header .nav .active{padding:5px}.header nav .social{padding-left:3px}}
+/* Desktop footer spacing */
+@media (min-width: 561px) {
+    .site-footer nav {
+        display: flex !important;
+        gap: 24px !important;
+        align-items: center;
+    }
+}
